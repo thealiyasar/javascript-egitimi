@@ -1,2 +1,8 @@
-# javascript-egitimi
-Bu eğitim ingilizce bir kaynak üzerinden türkçeye çevrilme sonucu oluşmaktadır. Anlatım içerisinde kişisel eklemeler yapılmıştır. Örnekler ile zenginleştirilmiştir.
+# Javascript Giriş
+## Javascript HTML içeriğini değiştirebilir. 
+Birçok JavaScript HTML yönteminden biri `getElementById()` yöntemidir.
+
+Aşağıdaki örnek, bir HTML öğesini (id="demo" ile) "bulur" ve öğe içeriğini (innerHTML) "Merhaba JavaScript" olarak değiştirir:
+```js
+document.getElementById("demo").innerHTML = "Merhaba Javascript";
+```
